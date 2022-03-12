@@ -7,4 +7,4 @@ RUN pip install -r requirements.txt
 
 ADD main.py /app
 RUN chmod a+x /app/main.py
-CMD ["python", "/app/main.py"]
+CMD ["python", "-u", "/app/main.py"]
