@@ -4,7 +4,15 @@ A simple slack bot for forwarding message to telegram chat
 
 ## Running the bot using docker-compose
 
-Clone the project, edit docker-compose.yml (or create a new one) supply your information and save the file
+Clone the project, and prepare dependencies
+
+```sh
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+edit docker-compose.yml (or create a new one) supply your information and save the file
 
 ```yml
 version: '3'
