@@ -2,7 +2,7 @@ FROM python:3.5
 
 WORKDIR /app
 
-ADD requirements.txt /
+ADD requirements.txt /app
 RUN pip install -r requirements.txt
 
 ADD main.py /app
