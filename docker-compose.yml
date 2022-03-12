@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  slack-telegram-fwd:
+    build: ./
+    restart: unless-stopped
+    environment:
+      SLACK_API_TOKEN: slack-token
+      TELEGRAM_TOKEN: telegram-token
+      TELEGRAM_TARGET: telegram-chat-id
+

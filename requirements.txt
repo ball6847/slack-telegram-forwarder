@@ -1,0 +1,2 @@
+python-telegram-bot==13.11
+slackclient==2.9.3
